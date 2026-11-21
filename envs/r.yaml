@@ -1,0 +1,10 @@
+# R environment for statistics and figures.
+name: mitonucleoid-ptm-r
+channels:
+  - conda-forge
+dependencies:
+  - r-base
+  - r-tidyverse
+  - r-lme4
+  - r-glmmtmb
+  - r-yaml

@@ -1,0 +1,13 @@
+# Main pipeline environment. Pin versions after the first working install.
+name: mitonucleoid-ptm
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python
+  - snakemake
+  - pandas
+  - openpyxl
+  - biopython
+  - pyyaml
+  - pytest

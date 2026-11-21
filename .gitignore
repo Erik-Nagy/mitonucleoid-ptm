@@ -1,0 +1,59 @@
+# Data and generated outputs: everything here must be regenerable from config + workflow
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+results/*
+!results/.gitkeep
+
+# Snakemake
+.snakemake/
+
+# Large bioinformatics files (wherever they end up)
+*.fasta
+*.fa
+*.faa
+*.fna
+*.gff
+*.gff3
+*.cif
+*.pdb
+*.db
+*.sqlite
+
+# Config: not tracked yet (TODO)
+config/config.yaml
+
+# Personal notes
+notes/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# R / Quarto
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*_files/
+.quarto/
+
+# LaTeX build files
+thesis/**/*.aux
+thesis/**/*.bbl
+thesis/**/*.blg
+thesis/**/*.fdb_latexmk
+thesis/**/*.fls
+thesis/**/*.log
+thesis/**/*.out
+thesis/**/*.synctex.gz
+thesis/**/*.toc
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

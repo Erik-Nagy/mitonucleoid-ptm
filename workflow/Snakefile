@@ -1,0 +1,1 @@
+# Main workflow. Rules live in workflow/rules/*.smk and are included here as they are written.
